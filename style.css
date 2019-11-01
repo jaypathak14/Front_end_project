@@ -1,19 +1,23 @@
 /* pakages css */
 
-.container {
+.pakages .container {
     position: relative;
     width: 20%;
     float: left;
+    height: 400px;
+    padding: 2px;
 }
 
 .image {
     opacity: 1;
     display: block;
     width: 100%;
-    height: auto;
+    height: 400px;
     transition: .5s ease;
     backface-visibility: hidden;
 }
+
+#sha {}
 
 .middle {
     transition: .5s ease;
@@ -26,11 +30,11 @@
     text-align: center;
 }
 
-.container:hover .image {
+.pakages .container:hover .image {
     opacity: 0.3;
 }
 
-.container:hover .middle {
+.pakages .container:hover .middle {
     opacity: 1;
 }
 
@@ -60,6 +64,17 @@
     margin: auto;
 }
 
+.card {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+.card-img-top {
+    height: 300px;
+    width: 100%;
+}
+
 .carousel-caption h3 {
     color: #fff !important;
 }
@@ -67,9 +82,15 @@
 
 /* pakages css end */
 
+
+/* body {
+    background-color: rgb(132, 136, 132);
+} */
+
 .mains {
     margin-left: 5%;
     margin-bottom: 2%;
+    width: auto;
 }
 
 ul {
