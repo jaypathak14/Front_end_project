@@ -1,0 +1,129 @@
+    /* pakages css */
+    
+    .trip-duration-section {
+        margin-top: 21px;
+        border-bottom: 1px solid #e8e8e8;
+        padding: 0 0 41px;
+        float: left;
+        width: 100%;
+    }
+    /* pakages css end */
+    
+    .mains {
+        margin-left: 5%;
+        margin-bottom: 2%;
+    }
+    
+    ul {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    nav {
+        display: flex;
+        /*flex property displays the blocks next to each other*/
+        justify-content: space-around;
+        /*distribute the equal space among the divs displayed as flex*/
+        align-items: center;
+        /*allign the text in center(vertically)*/
+        min-height: 8vh;
+        background-color: #5D4954;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .logo {
+        color: rgb(226, 226, 226);
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 25px;
+    }
+    
+    .nav-links {
+        display: flex;
+        /*background-color: red;*/
+        justify-content: space-around;
+        width: 40%;
+    }
+    
+    .nav-links a {
+        color: rgb(226, 226, 226);
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    .nav-links li {
+        list-style: none;
+    }
+    
+    .burger {
+        display: none;
+        cursor: pointer;
+    }
+    
+    .burger div {
+        width: 25px;
+        height: 2px;
+        background-color: rgb(226, 226, 226);
+        margin: 5px;
+    }
+    
+    @media screen and (max-width: 1024px) {
+        .nav-links {
+            width: 55%;
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        body {
+            overflow-x: hidden;
+            /*use to remove the scrollbar for sidebar*/
+        }
+        .nav-links {
+            position: absolute;
+            right: 0px;
+            height: 92vh;
+            top: 8vh;
+            background-color: #5D4954;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            transform: translateX(100%);
+            /*it moves whole sidebar off the screen*/
+            transition: transform 0.5s ease-in;
+        }
+        .burger {
+            display: block;
+        }
+    }
+    
+    .nav-active {
+        transform: translateX(0%);
+    }
+    /*Navigation css ends*/
+    
+    .icons i {
+        padding: 20px 0px 0px 20px;
+        font-size: 20px;
+    }
+    
+    .icons {
+        margin-left: 35px;
+        cursor: pointer;
+    }
+    
+    @media (max-width: 768px) {
+        footer {
+            display: none;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .carousel-caption {
+            display: none;
+            /* Hide the carousel text when the screen is less than 600 pixels wide */
+        }
+    }
