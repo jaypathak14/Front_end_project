@@ -1,66 +1,70 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>LOGIN</title>
     <link rel="stylesheet" type="text/css" href="css/loginStyle.css">
 
     <!-- Bootstrap Link -->
-  <!-- <link rel="stylesheet"  href="bootstrap/css/bootstrap.min.css"> -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet"  href="bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-  <!-- css link -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- css link -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-  <!-- google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> 
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 
-  <!-- font awesome -->
-  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
-<body style="background-color: #655050;">
- <!--  header -->
-  <nav>
-    <div class="logo">
-      <h4>Travelo</h4>
-    </div>
-    <ul class="nav-links">
-      <li>
-        <a href="index.html" class="home">Home</a>
-      </li>
-      <li>
-        <a href="#" class="tour">Tour</a>
-      </li>
-      <li>
-        <a href="#" class="blog">Blog</a>
-      </li>
-      <li>
-        <a href="#" class="contact">Contact</a>
-      </li>
-      <li>
-        <a href="about.html" class="about">About</a>
-      </li>
-      <li>
-        <a href="login.html" style="color: white;">Login</a>
-      </li>
-    </ul>
-    <div class="burger">
-      <div class="line1"></div>
-      <div class="line2"></div>
-      <div class="line3"></div>
-    </div>
-  </nav>
 
-    <div class="loginbox" >
+<body style="background-color: #655050;">
+    <!--  header -->
+    <nav>
+        <a href="index.html">
+            <div class="logo">
+                <h4>Travelo</h4>
+            </div>
+        </a>
+        <ul class="nav-links">
+            <li>
+                <a href="index.html" style="color: white;">Home</a>
+            </li>
+            <li>
+                <a href="mainindex.html" class="tour">Tour</a>
+            </li>
+            <li>
+                <a href="index1.html" class="blog">Blog</a>
+            </li>
+            <li>
+                <a href="contact1.html" class="contact">Contact</a>
+            </li>
+            <li>
+                <a href="about.html" class="about">About</a>
+            </li>
+            <li>
+                <a href="login.html" class="login">Login</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <div class="loginbox">
         <img src="images/avatar.png" class="avatar">
         <h1>LOGIN HERE</h1>
         <form action="index.html" onsubmit="return display();">
@@ -68,105 +72,102 @@
             <input type="text" name="" placeholder="Enter Username" id="a">
             <p>Password</p>
             <input type="password" name="" placeholder="Enter Password" id="b">
-            <a href="index.html"><input type="submit" value="Login" ></a><br>
+            <a href="index.html"><input type="submit" value="Login"></a><br>
             <a href="forgotpassword.html" style="text-decoration: none;">Forgot password?</a><br>
             <a href="signup.html" style="text-decoration: none;">Don't have an account? </a>
         </form>
     </div>
 
 
-  <!-- footer -->
-  <footer style="margin-top: 140px;">
-    <div class="container-fluid" style="border: 1px solid black; height: 150px; background-color: #191919;">
-      <div class="row">
-        <div class="col-lg-4 col-md-4" style=" height: 150px;">
-          <p style="color: white; padding: 25px 0px 0px 100px;">Follow Us</p>
-          <p style="color: #666666; padding: 0px 0px 0px 80px; ">Let us be social</p>
-          <div class="icons">
-            <i class="fa fa-facebook" aria-hidden="true" style="color: white;"></i>
-            <i class="fa fa-instagram" aria-hidden="true" style="color: white;"></i>
-            <i class="fa fa-twitter" aria-hidden="true" style="color: white;"></i>
-            <i class="fa fa-linkedin" aria-hidden="true" style="color: white;"></i>
-          </div>
-        </div>
+    <!-- footer -->
+    <footer style="margin-top: 140px;">
+        <div class="container-fluid" style="border: 1px solid black; height: 150px; background-color: #191919;">
+            <div class="row">
+                <div class="col-lg-4 col-md-4" style=" height: 150px;">
+                    <p style="color: white; padding: 25px 0px 0px 100px;">Follow Us</p>
+                    <p style="color: #666666; padding: 0px 0px 0px 80px; ">Let us be social</p>
+                    <div class="icons">
+                        <i class="fa fa-facebook" aria-hidden="true" style="color: white;"></i>
+                        <i class="fa fa-instagram" aria-hidden="true" style="color: white;"></i>
+                        <i class="fa fa-twitter" aria-hidden="true" style="color: white;"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true" style="color: white;"></i>
+                    </div>
+                </div>
 
-        <div class="col-lg-4 col-md-4" style="height: 150px;">
-          <p style="text-align: center; color: white; padding-top: 100px;">All rights reserved &copy; 2019</p>
-        </div>
+                <div class="col-lg-4 col-md-4" style="height: 150px;">
+                    <p style="text-align: center; color: white; padding-top: 100px;">All rights reserved &copy; 2019</p>
+                </div>
 
-        <div class="col-lg-4 col-md-4">
-          <p style="color: white; padding: 25px 0px 0px 140px; font-size: 16px;">Quick Contact</p>
-          <i class="fa fa-phone" aria-hidden="true" style="color: white; font-size: 15px; padding: 20px 0px 0px 120px;"> &nbsp; 1800 123 5555</i><br>
-          <i class="fa fa-envelope" aria-hidden="true" style="color: white; font-size: 15px; padding: 25px 0px 0px 120px;"> &nbsp;customercare@travelo.com</i>
+                <div class="col-lg-4 col-md-4">
+                    <p style="color: white; padding: 25px 0px 0px 140px; font-size: 16px;">Quick Contact</p>
+                    <i class="fa fa-phone" aria-hidden="true" style="color: white; font-size: 15px; padding: 20px 0px 0px 120px;"> &nbsp; 1800 123 5555</i><br>
+                    <i class="fa fa-envelope" aria-hidden="true" style="color: white; font-size: 15px; padding: 25px 0px 0px 120px;"> &nbsp;customercare@travelo.com</i>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
     <script>
-    function display()
-            {
-                  var name=document.getElementById("a").value;
-                  var len=document.getElementById("b").value;
-                  if(name.length<5)
-                  {
-                      alert("username must be atleast 5 characters");
-                      return false;
-                  }
-                  if(name==""||len=="")
-                  {
-                      alert("please fill all the required fields");
-                      return false;
-                  }
-                  
+        function display() {
+            var name = document.getElementById("a").value;
+            var len = document.getElementById("b").value;
+            if (name.length < 5) {
+                alert("username must be atleast 5 characters");
+                return false;
             }
-        </script>
+            if (name == "" || len == "") {
+                alert("please fill all the required fields");
+                return false;
+            }
 
-        <!-- jQuery -->
-  <script>
-    // $(document).ready(function(){
-    //  $(".actives").mouseenter(function(){
-    //    $(".actives").css("color","white");
-    //  })
-    // })
+        }
+    </script>
 
-    $(document).ready(function(){
-       $(".tour").mouseenter(function(){
-           $(".tour").css("color", "white");
-        });
-       $(".tour").mouseleave(function(){
-           $(".tour").css("color", "rgb(226,226,226)");
-        });
+    <!-- jQuery -->
+    <script>
+        // $(document).ready(function(){
+        //  $(".actives").mouseenter(function(){
+        //    $(".actives").css("color","white");
+        //  })
+        // })
 
-       $(".blog").mouseenter(function(){
-           $(".blog").css("color", "white");
-        });
-       $(".blog").mouseleave(function(){
-           $(".blog").css("color", "rgb(226,226,226)");
-        });
+        $(document).ready(function() {
+            $(".tour").mouseenter(function() {
+                $(".tour").css("color", "white");
+            });
+            $(".tour").mouseleave(function() {
+                $(".tour").css("color", "rgb(226,226,226)");
+            });
 
-       $(".contact").mouseenter(function(){
-           $(".contact").css("color", "white");
-        });
-       $(".contact").mouseleave(function(){
-           $(".contact").css("color", "rgb(226,226,226)");
-        });
+            $(".blog").mouseenter(function() {
+                $(".blog").css("color", "white");
+            });
+            $(".blog").mouseleave(function() {
+                $(".blog").css("color", "rgb(226,226,226)");
+            });
 
-       $(".about").mouseenter(function(){
-           $(".about").css("color", "white");
-        });
-       $(".about").mouseleave(function(){
-           $(".about").css("color", "rgb(226,226,226)");
-        });
+            $(".contact").mouseenter(function() {
+                $(".contact").css("color", "white");
+            });
+            $(".contact").mouseleave(function() {
+                $(".contact").css("color", "rgb(226,226,226)");
+            });
 
-       $(".home").mouseenter(function(){
-           $(".home").css("color", "white");
+            $(".about").mouseenter(function() {
+                $(".about").css("color", "white");
+            });
+            $(".about").mouseleave(function() {
+                $(".about").css("color", "rgb(226,226,226)");
+            });
+
+            $(".home").mouseenter(function() {
+                $(".home").css("color", "white");
+            });
+            $(".home").mouseleave(function() {
+                $(".home").css("color", "rgb(226,226,226)");
+            });
         });
-       $(".home").mouseleave(function(){
-           $(".home").css("color", "rgb(226,226,226)");
-        });
-    });
-  </script>
+    </script>
 </body>
 
 </html>

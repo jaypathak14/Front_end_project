@@ -1,13 +1,13 @@
-
-
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
+
+<head>
     <title>Travelo.com</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -26,253 +26,257 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
-    
-  </head>
-  <body>
+
+</head>
+
+<body>
 
     <nav>
-      <div class="logo">
-        <h4>Travelo</h4>
-      </div>
-      <ul class="nav-links">
-        <li>
-          <a href="index.html" style="color: white;">Home</a>
-        </li>
-        <li>
-          <a href="#" class="tour">Tour</a>
-        </li>
-        <li>
-          <a href="#" class="blog">Blog</a>
-        </li>
-        <li>
-          <a href="#" class="contact">Contact</a>
-        </li>
-        <li>
-          <a href="#" class="about">About</a>
-        </li>
-        <li>
-          <a href="#" class="login">Login</a>
-        </li>
-      </ul>
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
+        <a href="index.html">
+            <div class="logo">
+                <h4>Travelo</h4>
+            </div>
+        </a>
+        <ul class="nav-links">
+            <li>
+                <a href="index.html" style="color: white;">Home</a>
+            </li>
+            <li>
+                <a href="mainindex.html" class="tour">Tour</a>
+            </li>
+            <li>
+                <a href="index1.html" class="blog">Blog</a>
+            </li>
+            <li>
+                <a href="contact1.html" class="contact">Contact</a>
+            </li>
+            <li>
+                <a href="about.html" class="about">About</a>
+            </li>
+            <li>
+                <a href="login.html" class="login">Login</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
     </nav>
 
     <script type="text/javascript">
-      // annonymous function
-      const navSlide = () => {  
-        const burger = document.querySelector('.burger');
-        const nav = document.querySelector('.nav-links');
-        const navLinks = document.querySelectorAll('.nav-links li');
-      
-        burger.addEventListener('click',() => {
-          //Toggle Nav
-           nav.classList.toggle('nav-active');
-        });
-      }
-  
-      navSlide();
+        // annonymous function
+        const navSlide = () => {
+            const burger = document.querySelector('.burger');
+            const nav = document.querySelector('.nav-links');
+            const navLinks = document.querySelectorAll('.nav-links li');
+
+            burger.addEventListener('click', () => {
+                //Toggle Nav
+                nav.classList.toggle('nav-active');
+            });
+        }
+
+        navSlide();
     </script>
-  
+
     <!-- jQuery -->
     <script>
-      // $(document).ready(function(){
-      // 	$(".actives").mouseenter(function(){
-      // 		$(".actives").css("color","white");
-      // 	})
-      // })
-  
-      $(document).ready(function(){
-          $(".tour").mouseenter(function(){
-              $(".tour").css("color", "white");
-          });
-          $(".tour").mouseleave(function(){
-              $(".tour").css("color", "rgb(226,226,226)");
-          });
-  
-          $(".blog").mouseenter(function(){
-              $(".blog").css("color", "white");
-          });
-          $(".blog").mouseleave(function(){
-              $(".blog").css("color", "rgb(226,226,226)");
-          });
-  
-          $(".contact").mouseenter(function(){
-              $(".contact").css("color", "white");
-          });
-          $(".contact").mouseleave(function(){
-              $(".contact").css("color", "rgb(226,226,226)");
-          });
-  
-          $(".about").mouseenter(function(){
-              $(".about").css("color", "white");
-          });
-          $(".about").mouseleave(function(){
-              $(".about").css("color", "rgb(226,226,226)");
-          });
-  
-          $(".login").mouseenter(function(){
-              $(".login").css("color", "white");
-          });
-          $(".login").mouseleave(function(){
-              $(".login").css("color", "rgb(226,226,226)");
-          });
-      });
+        // $(document).ready(function(){
+        // 	$(".actives").mouseenter(function(){
+        // 		$(".actives").css("color","white");
+        // 	})
+        // })
+
+        $(document).ready(function() {
+            $(".tour").mouseenter(function() {
+                $(".tour").css("color", "white");
+            });
+            $(".tour").mouseleave(function() {
+                $(".tour").css("color", "rgb(226,226,226)");
+            });
+
+            $(".blog").mouseenter(function() {
+                $(".blog").css("color", "white");
+            });
+            $(".blog").mouseleave(function() {
+                $(".blog").css("color", "rgb(226,226,226)");
+            });
+
+            $(".contact").mouseenter(function() {
+                $(".contact").css("color", "white");
+            });
+            $(".contact").mouseleave(function() {
+                $(".contact").css("color", "rgb(226,226,226)");
+            });
+
+            $(".about").mouseenter(function() {
+                $(".about").css("color", "white");
+            });
+            $(".about").mouseleave(function() {
+                $(".about").css("color", "rgb(226,226,226)");
+            });
+
+            $(".login").mouseenter(function() {
+                $(".login").css("color", "white");
+            });
+            $(".login").mouseleave(function() {
+                $(".login").css("color", "rgb(226,226,226)");
+            });
+        });
     </script>
-	
 
-  <div class="site-wrap">
 
-    <div class="site-mobile-menu">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-    
-   
-  
+    <div class="site-wrap">
 
-   
-
-    <div class="site-blocks-cover inner-page-cover" style="background-image: url(images/hero_bg_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center text-center">
-
-            <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
-              <h1 class="text-white font-weight-light">Get In Touch</h1>
-              <div><a href="index.html">Home</a> <span class="mx-2 text-white">&bullet;</span> <span class="text-white">Contact</span></div>
-              
+        <div class="site-mobile-menu">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
+                </div>
             </div>
-          </div>
+            <div class="site-mobile-menu-body"></div>
         </div>
-      </div>  
 
 
-    
-    <div class="site-section bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7 mb-5">
 
-            
 
-            <form action="#" class="p-5 bg-white">
-             
 
-              <div class="row form-group">
-                <div class="col-md-6 mb-3 mb-md-0">
-                  <label class="text-black" for="fname">First Name</label>
-                  <input type="text" id="fname" class="form-control">
+
+        <div class="site-blocks-cover inner-page-cover" style="background-image: url(images/hero_bg_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row align-items-center justify-content-center text-center">
+
+                    <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+                        <h1 class="text-white font-weight-light">Get In Touch</h1>
+                        <div><a href="index.html">Home</a> <span class="mx-2 text-white">&bullet;</span> <span class="text-white">Contact</span></div>
+
+                    </div>
                 </div>
-                <div class="col-md-6">
-                  <label class="text-black" for="lname">Last Name</label>
-                  <input type="text" id="lname" class="form-control">
-                </div>
-              </div>
-
-              <div class="row form-group">
-                
-                <div class="col-md-12">
-                  <label class="text-black" for="email">Email</label> 
-                  <input type="email" id="email" class="form-control">
-                </div>
-              </div>
-
-              <div class="row form-group">
-                
-                <div class="col-md-12">
-                  <label class="text-black" for="subject">Subject</label> 
-                  <input type="subject" id="subject" class="form-control">
-                </div>
-              </div>
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="text-black" for="message">Message</label> 
-                  <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
-                </div>
-              </div>
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <input type="submit" value="Send Message" class="btn btn-primary py-2 px-4 text-white">
-                </div>
-              </div>
-
-  
-            </form>
-          </div>
-          <div class="col-md-5">
-            
-            <div class="p-4 mb-3 bg-white">
-              <p class="mb-0 font-weight-bold">Address</p>
-              <p class="mb-4">203 Model Town, Delhi, India</p>
-
-              <p class="mb-0 font-weight-bold">Phone</p>
-              <p class="mb-4"><a href="#"> 1800 123 5555</a></p>
-
-              <p class="mb-0 font-weight-bold">Email Address</p>
-              <p class="mb-0"><a href="#"> customercare@travelo.com </a></p>
-
             </div>
-            
-
-          </div>
         </div>
-      </div>
+
+
+
+        <div class="site-section bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+
+
+
+                        <form action="#" class="p-5 bg-white">
+
+
+                            <div class="row form-group">
+                                <div class="col-md-6 mb-3 mb-md-0">
+                                    <label class="text-black" for="fname">First Name</label>
+                                    <input type="text" id="fname" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="text-black" for="lname">Last Name</label>
+                                    <input type="text" id="lname" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="row form-group">
+
+                                <div class="col-md-12">
+                                    <label class="text-black" for="email">Email</label>
+                                    <input type="email" id="email" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="row form-group">
+
+                                <div class="col-md-12">
+                                    <label class="text-black" for="subject">Subject</label>
+                                    <input type="subject" id="subject" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="row form-group">
+                                <div class="col-md-12">
+                                    <label class="text-black" for="message">Message</label>
+                                    <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row form-group">
+                                <div class="col-md-12">
+                                    <input type="submit" value="Send Message" class="btn btn-primary py-2 px-4 text-white">
+                                </div>
+                            </div>
+
+
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+
+                        <div class="p-4 mb-3 bg-white">
+                            <p class="mb-0 font-weight-bold">Address</p>
+                            <p class="mb-4">203 Model Town, Delhi, India</p>
+
+                            <p class="mb-0 font-weight-bold">Phone</p>
+                            <p class="mb-4"><a href="#"> 1800 123 5555</a></p>
+
+                            <p class="mb-0 font-weight-bold">Email Address</p>
+                            <p class="mb-0"><a href="#"> customercare@travelo.com </a></p>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="container-fluid" style="border: 1px solid black; height: 150px; background-color: #191919;">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4" style=" height: 150px;">
+                        <p style="color: white; padding: 25px 0px 0px 100px;">Follow Us</p>
+                        <p style="color: #666666; padding: 0px 0px 0px 80px; ">Let us be social</p>
+                        <div class="icons">
+                            <i class="fa fa-facebook" aria-hidden="true" style="color: white;"></i>
+                            <i class="fa fa-instagram" aria-hidden="true" style="color: white;"></i>
+                            <i class="fa fa-twitter" aria-hidden="true" style="color: white;"></i>
+                            <i class="fa fa-linkedin" aria-hidden="true" style="color: white;"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4" style="height: 150px;">
+                        <p style="text-align: center; color: white; padding-top: 100px;">All rights reserved &copy; 2019</p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4">
+                        <p style="color: white; padding: 25px 0px 0px 140px; font-size: 16px;">Quick Contact</p>
+                        <i class="fa fa-phone" aria-hidden="true" style="color: white; font-size: 15px; padding: 20px 0px 0px 120px;"> &nbsp; 1800 123 5555</i><br>
+                        <i class="fa fa-envelope" aria-hidden="true" style="color: white; font-size: 15px; padding: 25px 0px 0px 120px;"> &nbsp;customercare@travelo.com</i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
     </div>
 
-    
-	<footer>
-		<div class="container-fluid" style="border: 1px solid black; height: 150px; background-color: #191919;">
-			<div class="row">
-				<div class="col-lg-4 col-md-4" style=" height: 150px;">
-					<p style="color: white; padding: 25px 0px 0px 100px;">Follow Us</p>
-					<p style="color: #666666; padding: 0px 0px 0px 80px; ">Let us be social</p>
-					<div class="icons">
-						<i class="fa fa-facebook" aria-hidden="true" style="color: white;"></i>
-						<i class="fa fa-instagram" aria-hidden="true" style="color: white;"></i>
-						<i class="fa fa-twitter" aria-hidden="true" style="color: white;"></i>
-						<i class="fa fa-linkedin" aria-hidden="true" style="color: white;"></i>
-					</div>
-				</div>
+    </div>
 
-				<div class="col-lg-4 col-md-4" style="height: 150px;">
-					<p style="text-align: center; color: white; padding-top: 100px;">All rights reserved &copy; 2019</p>
-				</div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/aos.js"></script>
 
-				<div class="col-lg-4 col-md-4">
-					<p style="color: white; padding: 25px 0px 0px 140px; font-size: 16px;">Quick Contact</p>
-					<i class="fa fa-phone" aria-hidden="true" style="color: white; font-size: 15px; padding: 20px 0px 0px 120px;"> &nbsp; 1800 123 5555</i><br>
-					<i class="fa fa-envelope" aria-hidden="true" style="color: white; font-size: 15px; padding: 25px 0px 0px 120px;"> &nbsp;customercare@travelo.com</i>
-				</div>
-			</div>
-		</div>
-	</footer>
-    
-      </div>
-    
-  </div>
+    <script src="js/main.js"></script>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.countdown.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/bootstrap-datepicker.min.js"></script>
-  <script src="js/aos.js"></script>
+</body>
 
-  <script src="js/main.js"></script>
-    
-  </body>
 </html>
